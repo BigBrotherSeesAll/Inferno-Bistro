@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Inferno Bistro | Contact Us </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="InfernoBistro.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2c2854a37d.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <div class="background">
+  <section id="nav">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="InfernoBistro Logo.png" width="75" height="75" class="d-inline-block align-center" alt="">
+        Inferno Bistro</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href=InfernoBistro-homepage.html>Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="InfernoBistro-MenuPage.html">Menu</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="InfernoBistro-OnlineOrderPage.html">Online Order</a>
+          </li>
+          <li class="nav-item">
+
+            <a class="nav-link" href="InfernoBistro-AboutUs.html">About Us</a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="InfernoBistro-ContactUs.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+<br>
+
+  <div class="header"> <center>
+   <!-- <h1> Inferno Bistro </h1>
+    <img src="InfernoBistro Logo.png"> -->
+    <h2> Fremont's #1 Korean Asian Fusion Restaurant </h2>
+    </center></div>
+
+<br>
+  
+  <div class="ContactUsForm">
+    
+      <form id="contactForm" class="contactForm" method = "post">   
+      <!--  action="ContactUs_Sent.html" to a confirmation that the message was sent. -->
+      <br><br>
+        <h2> (408)946-8527 <br> <br> InfernoBistro@gmail.com <br> <br> 5025 Stevens Way, Fremont, California</h2>
+
+        <p><label>Name </label>
+            <input type = "text" id="name" name = "name" placeholder = "Enter your Name" size = "30" maxlength = "45" required> </p>
+        <p><label>Email
+            <input type = "email" id="email" name = "email" placeholder = "Enter your E-mail Address" size = "30" maxlength = "45" required></label></p>
+        <p><label>Subject
+            <input type = "text" id="subject" name = "subject" placeholder = "Enter message Subject" size = "30" maxlength = "45"></label></p>
+        <p class="full"><label>Message</label><br>
+                        <textarea id="message" name = "message"  placeholder = "Enter your Message" rows="5" cols="32"></textarea></p>
+        
+                        <p class="full"><button type="submit" onClick='showMessage()'> Submit </button>
+                                        <button type="reset"> Reset </button></p>
+                                        <div class="alert">Thank you for your time! Your contact form has been submitted! </div>
+    </form>
+    </div>
+
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+  <script src="main.js"> </script> 
+</div>
+</body>
+</html>
+
+<!-- https://www.youtube.com/watch?v=PP4Tr0l08NE&t=284s -->

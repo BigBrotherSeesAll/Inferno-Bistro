@@ -1,0 +1,164 @@
+body {font-family: Sans-serif;
+    color: #fbedd6;
+    background-color: black;
+    }
+
+.background {
+  background-color: black;
+}
+
+.header {
+   color: red;
+   font-family: Sans-serif;
+   position: center;
+   text-align: center;
+   font-weight: bold;
+   text-size-adjust: 1000%;
+  }
+
+/* Navigation Bar */
+.navbar-brand { 
+   font-family: Sans-serif;
+   font-size: 2.5rem;
+   font-weight: bold;  
+   padding-right: 1.5rem;
+  }
+
+.navbar-nav {  
+  font-size: 1.5rem;  
+  font-weight: bold;
+  }
+
+  .nav-item {  
+    padding: 0 18px;
+  }
+
+.container{
+    text-align: center;
+    box-align: center;
+    background-color: white;
+    color: darkred;
+}
+
+.ContactUsForm{
+    background: url(ContactUs.jpg)no-repeat;
+    background-position: 59px 7px;
+    font-family: Sans-serif;
+    width: 300px;
+    height: 835px;
+    background-color: #e5c181;
+    opacity: 0.92;
+    padding: 1em;
+    color: darkred;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+    box-align: center;
+}
+.ContactUsForm h2{
+    text-align: center;
+    font-family: "Times New Roman";
+    color: darkred;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px;
+    background-color: #fbedd6;
+    box-align: center;
+}
+.ContactUsForm p{
+    text-align: left;
+    font-family: Sans-serif;
+    font-weight: bold;
+    padding: 12px;
+    background-color: #fbedd6;
+    box-align: center;
+}
+
+.alert{
+  text-align: center;
+  padding: 25px;
+  background: #fbedd6;
+  color: darkred;
+  margin-bottom: 10px;
+  display: none;
+}
+
+input[type="button"], input[type=submit]{
+    box-align: center;
+    text-align: center;
+    margin: 4px 2px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+* {
+  box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+
+  .title-head{  
+    font-style: italic;  
+    font-size: 2.5rem;
+  }
+  
+  #title {  
+    background-color: #black;  
+    padding-top: 75px;  
+    padding-bottom: 75px;
+  }
+  
+  #our-mission {}
+  
+  .mission-container {  
+    background-color: #black;  
+    position: relative;  
+    padding-top: 75px;  
+    padding-bottom: 100px;  
+    text-align: center;
+  }
+  
+  #about-us {  
+    padding: 3% 15% 9%;  
+    background-color: black;
+  }
+  
+  .text {  
+    width: 450px;  
+    padding: 50px;  
+    margin: 20px;  
+    font-family: Sans-serif;  
+    font-size: 20px;
+    color: #fbedd6;  
+    text-align: center;
+  }
+  
+  /* Footer Section */
+  #footer {  
+    padding: 5% 10%;  
+    text-align: center;
+  }
+  
+  .social-icon {  
+    margin: 20px 20px;
+  }
+
+  
